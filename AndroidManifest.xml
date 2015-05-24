@@ -27,10 +27,6 @@
             </intent-filter>
         </activity>
         
-        <activity
-            android:name="com.gettasks.app.TaskDetailActivity">
-        </activity>
-        
         <service android:name=".DownloadInfoIntentService" />
     </application>
 
