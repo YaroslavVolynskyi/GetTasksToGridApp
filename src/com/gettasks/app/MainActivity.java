@@ -78,7 +78,9 @@ public class MainActivity extends Activity implements InfoParsedListener {
 						.getInt(DownloadInfoIntentService.RESULT_KEY);
 				if (resultCode == RESULT_OK) {
 					InfoParser parser = new InfoParser(MainActivity.this);
-					parser.parseInfo(result);
+					if (result != null) {
+						parser.parseInfo(result);
+					}
 				} else {
 					Toast.makeText(MainActivity.this, 
 							MainActivity.this.getResources().getString(R.string.try_again), Toast.LENGTH_SHORT).show();
