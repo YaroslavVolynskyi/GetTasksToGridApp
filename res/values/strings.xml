@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GetTasksApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="nointernet">No internet connection, check it and try again</string>
+    <string name="try_again">Try again</string>
+    <string name="count">Count</string>
+    <string name="entercount">Enter how many tasks you want to get</string>
+    
+</resources>

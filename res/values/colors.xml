@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="griditem_middle_color">#9c9c9c</color>
+    <color name="griditem_color">#868686</color>
+    <color name="griditem_middle_color_pressed">#7e7e7e</color>
+    <color name="griditem_color_pressed">#565656</color>
+</resources>
